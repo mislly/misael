@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu Portfólio</title>
+  <!-- Link para o Bootstrap -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Link para o seu CSS personalizado -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="bg-primary text-white text-center py-5">
+    <h1>Bem-vindo ao Meu Portfólio</h1>
+    <p>Desenvolvedor de Software - Projetos incríveis à vista!</p>
+  </header>
+
+  <!-- Área de Projetos -->
+  <section class="container my-5">
+    <h2 class="text-center">Meus Projetos</h2>
+    <div class="row">
+      <!-- Card de Projeto 1 -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="projeto1.jpg" class="card-img-top" alt="Projeto 1">
+          <div class="card-body">
+            <h5 class="card-title">Projeto 1</h5>
+            <p class="card-text">Descrição breve sobre o projeto 1. O que ele faz e como foi feito.</p>
+            <a href="#" class="btn btn-primary">Ver Detalhes</a>
+          </div>
+        </div>
+      </div>
+      <!-- Card de Projeto 2 -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="projeto2.jpg" class="card-img-top" alt="Projeto 2">
+          <div class="card-body">
+            <h5 class="card-title">Projeto 2</h5>
+            <p class="card-text">Descrição breve sobre o projeto 2.</p>
+            <a href="#" class="btn btn-primary">Ver Detalhes</a>
+          </div>
+        </div>
+      </div>
+      <!-- Card de Projeto 3 -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="projeto3.jpg" class="card-img-top" alt="Projeto 3">
+          <div class="card-body">
+            <h5 class="card-title">Projeto 3</h5>
+            <p class="card-text">Descrição breve sobre o projeto 3.</p>
+            <a href="#" class="btn btn-primary">Ver Detalhes</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-4">
+    <p>&copy; 2025 Meu Portfólio | Todos os direitos reservados.</p>
+    <p>Feito com ❤ por Fe</p>
+  </footer>
+
+  <!-- Scripts do Bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
